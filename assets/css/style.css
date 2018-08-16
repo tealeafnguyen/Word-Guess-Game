@@ -1,0 +1,81 @@
+
+    .wrappper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #mylives {
+        font-size: 1.6em;
+        text-align: center;
+        display: block;
+    }
+
+    #winCount {
+        text-align: center;
+        display: block;
+    }
+
+    button {
+        background: coral;
+        color: white;
+        border: solid 1px white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1.2em;
+        padding: 18px 10px;
+        width: 180px;
+        margin: 10px;
+        outline: none;
+    }
+
+    button:hover {
+        background: white;
+        border: solid 1px white;
+        color: cyan;
+    }
+
+    #alphabet {
+        margin: 15px auto;
+        padding: 0;
+        max-width: 900px;
+    }
+
+    #alphabet li {
+        display: inline-block;
+        margin: 0 10px 10px 0;
+        list-style: none;
+        width: 35px;
+        height: 30px;
+        background: green;
+        color: white;
+        cursor: pointer;
+        border: solid 1px white;
+    }
+
+    .active {
+        opacity: 0.5;
+    }
+
+    #my-word {
+        margin: 0;
+        display: block;
+        padding: 0;
+    }
+
+    #my-word li {
+        position: relative;
+        list-style: none;
+        margin: 0;
+        display: inline;
+        padding: 0 10px;
+        font-size: 1.6em;
+    }
+
+    body {
+        background: darkcyan;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: white;
+        height: 100%;
+        text-align: center;
+        font-size: 18px;
+    }

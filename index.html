@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Shrekkoning</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Shrek Man</h1>
+        <p>Use the alphabet below to guess the shrek related word or else it's all ogre.</p>
+        <p>Please see console log for the answer.</p>
+        <button id="startGame">Click to Start</button>
+    </div>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-6">
+                <div class="shrek">
+                    <img src="assets/images/shrek.png" alt="" id="theThird" style="position:relative; left: 100px; z-index: -20; height: 300px; display:none">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="puss">
+                    <img src="assets/images/puss.png" alt="" id="puss" style="position:relative; left: 80px; z-index: -20; height: 300px; display:none">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div id="buttons">
+        </div>
+        <div id="hold">
+        </div>
+        <p id="mylives"></p>
+        <p id="winCount"></p>
+        <div class="container">
+            <button id='reset' style='display:none'>Reset</button>
+        </div>
+    </div>
+</body>
+</html>
